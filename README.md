@@ -1,11 +1,11 @@
 # Clyde.js
 
-A [Finance.io](https://npmjs.com/package/finance.io) Discord Bot Wrapper
+Clyde.js Discord Bot Wrapper
 
 
 
-[![npm (scoped)](https://img.shields.io/npm/v/finance.io.svg)](https://www.npmjs.com/package/finance.io)
-[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/finance.io.svg)](https://www.npmjs.com/package/finance.io)
+[![npm (scoped)](https://img.shields.io/npm/v/clyde.js.svg)](https://www.npmjs.com/package/clyde.js)
+[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/clyde.js.svg)](https://www.npmjs.com/package/clyde.js)
 
 <a href="https://nodei.co/npm/clyde.js/"><img src="https://nodei.co/npm/clyde.js.png?downloads=true&stars=true" alt="NPM info" /></a>
 
@@ -42,8 +42,8 @@ const bot = require('clyde.js')
 const token = YOUR_BOT_TOKEN
 const prefix = "!"
 bot.on(token + " " + prefix)
-bot.finance() 
-bot.miscellaneous() 
+bot.finance() // Load Functions
+bot.miscellaneous()  // Load Functions
 
 ```
 
@@ -90,6 +90,8 @@ bot.miscellaneous()
 - [discord.js](https://discord.js.org)
 
 - [finance.io](https://finance.js.org)
+
+- [dcord](https://npmjs.com/package/dcord)
 
 ------------------
 

@@ -42,7 +42,37 @@ const bot = require('clyde.js')
 const token = YOUR_BOT_TOKEN
 const prefix = "!"
 bot.on(token + " " + prefix)
+bot.finance() 
+bot.miscellaneous() 
+
 ```
+
+## Customize Functions
+
+#### Financial 
+```
+bot.finance()
+```
+#### miscellaneous
+```
+bot.miscellaneous()
+```
+
+### Commands 
+
+- Get Finance 
+  - get <STOCK_QUOTE>
+  - getnspa <STOCK_QUOTE>
+  - getfinancial <STOCK_QUOTE>
+  - getcompany <STOCK_QUOTE>
+
+- Miscellaneous `OPTIONAL`
+  - Help
+  - ping
+  - uptime
+
+---------------------------
+
 
 ## Author
 
